@@ -1,0 +1,7 @@
+SUB = 'subject'
+SEG = 'segment'
+EMBED_BASED = 'embed_based'
+VOTING = 'voting'
+TRN = 'train'
+VAL = 'validation'
+TST = 'test'
