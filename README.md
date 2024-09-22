@@ -1,4 +1,4 @@
-# TransformerCARE: Speech-Based Early Detection of Cognitive Impairment
+# TransformerCARE: A Novel Speech Analysis Pipeline Using Transformer-Based Models for Cognitive ImpAiRment DEtection
 
 ## Overview
 
@@ -38,7 +38,7 @@ We measured the performance of TransformerCARE using the **DementiaBank** speech
 
 We evaluated four transformer models using two aggregation approaches: **Embed-Based** and **Voting**.
 
-**Table 1: Models Performance with Embed-Based and Voting Aggregation Methods**
+**Table 1: Speech Transformer Models Performance with Embed-Based and Voting Aggregation approaches**
 
 | Model           | Aggregation Method | F1-Score | AUC    |
 |-----------------|--------------------|----------|--------|
@@ -56,7 +56,7 @@ We evaluated four transformer models using two aggregation approaches: **Embed-B
 
 We compared the performance of the HuBERT model using different data augmentation techniques on the dataset.
 
-**Table 2: Effect of Data Augmentation Techniques on Model Performance**
+**Table 2: Performance comparison of HuBERT with different data augmentation techniques**
 
 | Augmentation Technique                | F1-Score | AUC    |
 |---------------------------------------|----------|--------|
@@ -78,7 +78,7 @@ To utilize the TransformerCARE pipeline:
    pip install -r requirements.txt
 
 3. **Adjust Configuration**
-   You can change the transformer model type, speech segment size, or adjust other hyperparameters using **config.py**.
+You can change the transformer model type, speech segment size, or adjust other hyperparameters using **config.py**.
    
 4. **Run Training**
    ```bash
