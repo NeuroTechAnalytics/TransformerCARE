@@ -2,17 +2,16 @@
 
 ## Overview
 
-TransformerCARE is a speech processing pipeline designed to detect cognitive impairment through speech analysis. The pipeline leverages advanced **speech transformer models** to generate rich representations of speech data. To handle long speech inputs and bypass transformer constraints, we implemented **segmentation and aggregation approaches**, specifically Voting and Embed-based (averaging embeddings of speech segments) approaches. Additionally, we employed audio augmentation techniques, particularly **Frequency Masking** to augment speech waveforms and enhance model performance.
+TransformerCARE is a speech processing pipeline designed to detect cognitive impairment through speech analysis. The pipeline leverages advanced speech transformer models to generate rich representations of speech data. To handle long speech inputs and bypass transformer constraints, we implemented segmentation and aggregation approaches, specifically Voting and Embed-based (averaging embeddings of speech segments). Additionally, we employed audio augmentation techniques, particularly Frequency Masking to augment speech waveforms and enhance model performance.
 
-## Pipeline Overview
-
+<br>
 ![Pipeline Overview](https://github.com/NeuroTechAnalytics/TransformerCARE/blob/master/imgs/pipeline.jpg)
 
 *Figure 1: Overview of the TransformerCARE speech processing pipeline.*
 
 ## Dataset Description
 
-We measured the performance of TransformerCARE using the **DementiaBank** speech corpus, which includes recordings from 237 subjects who participated in a **picture description task**. The subjects comprised 122 cognitively impaired and 115 cognitively normal individuals. The dataset was split into training and testing sets with the following characteristics:
+We measured the performance of TransformerCARE using the DementiaBank speech corpus, which includes recordings from 237 subjects who participated in a picture description task. The subjects comprised 122 cognitively impaired and 115 cognitively normal individuals. The dataset was split into training and testing sets with the following characteristics:
 
 #### Training Data
 
