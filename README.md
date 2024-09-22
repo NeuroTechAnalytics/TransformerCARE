@@ -6,7 +6,7 @@ TransformerCARE is a speech processing pipeline designed to detect cognitive imp
 
 ![Pipeline Overview](https://github.com/NeuroTechAnalytics/TransformerCARE/blob/master/imgs/pipeline.jpg)
 
-*Figure 1: Overview of the TransformerCARE speech processing pipeline.*
+*Overview of the TransformerCARE speech processing pipeline.*
 
 ## Dataset Description
 
