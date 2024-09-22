@@ -8,7 +8,7 @@ TransformerCARE is a speech processing pipeline designed to detect cognitive imp
 
 *Overview of the TransformerCARE speech processing pipeline.*
 
-## Dataset Description
+## Dataset
 
 We measured the performance of TransformerCARE using the DementiaBank speech corpus, which includes recordings from 237 subjects who participated in a picture description task. The subjects comprised 122 cognitively impaired and 115 cognitively normal individuals. The dataset was split into training and testing sets with the following characteristics:
 
