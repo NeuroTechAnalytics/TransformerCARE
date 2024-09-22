@@ -4,7 +4,6 @@
 
 TransformerCARE is a speech processing pipeline designed to detect cognitive impairment through speech analysis. The pipeline leverages advanced speech transformer models to generate rich representations of speech data. To handle long speech inputs and bypass transformer constraints, we implemented segmentation and aggregation approaches, specifically Voting and Embed-based (averaging embeddings of speech segments). Additionally, we employed audio augmentation techniques, particularly Frequency Masking to augment speech waveforms and enhance model performance.
 
-<br>
 ![Pipeline Overview](https://github.com/NeuroTechAnalytics/TransformerCARE/blob/master/imgs/pipeline.jpg)
 
 *Figure 1: Overview of the TransformerCARE speech processing pipeline.*
@@ -33,11 +32,7 @@ We measured the performance of TransformerCARE using the DementiaBank speech cor
 
 ## Results
 
-### Performance of Transformer Models with Different Aggregation approaches
-
-We evaluated four transformer models using two aggregation approaches: **Embed-Based** and **Voting**.
-
-**Table 1: Speech Transformer Models Performance with Embed-Based and Voting Aggregation approaches**
+Performance of Transformer Models with Different Aggregation approaches
 
 | Model           | Aggregation Method | F1-Score | AUC    |
 |-----------------|--------------------|----------|--------|
@@ -51,9 +46,7 @@ We evaluated four transformer models using two aggregation approaches: **Embed-B
 | **DistilHuBERT**| Voting             | 69.29    | 73.12  |
 
 
-### Effect of Data Augmentation Techniques
-
-We compared the performance of the HuBERT model using different data augmentation techniques on the dataset.
+Performance of the HuBERT model (with Embed-based approach) using different data augmentation techniques on the dataset.
 
 **Table 2: Performance comparison of HuBERT with different data augmentation techniques**
 
