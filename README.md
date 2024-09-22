@@ -1,4 +1,4 @@
-# TransformerCARE: A Novel Speech Analysis Pipeline Using Transformer-Based Models for Cognitive ImpAiRment DEtection
+# TransformerCARE: Speech Analysis Pipeline
 
 ## Overview
 
