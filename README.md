@@ -4,8 +4,8 @@
 
 TransformerCARE is a speech processing pipeline designed to detect cognitive impairment through speech analysis. The pipeline leverages advanced speech transformer models to generate rich representations of speech data. To handle long speech inputs and bypass transformer constraints, we implemented segmentation and aggregation approaches, specifically Voting and Embed-based (averaging embeddings of speech segments). Additionally, we employed audio augmentation techniques, particularly Frequency Masking to augment speech waveforms and enhance model performance.
 
-![Pipeline Overview]()
-<img src="https://github.com/NeuroTechAnalytics/TransformerCARE/blob/master/imgs/pipeline.jpg" width="1100" height="400" class="centerImage">
+
+<img src="https://github.com/NeuroTechAnalytics/TransformerCARE/blob/master/imgs/pipeline.jpg" width="900" height="400" class="centerImage">
 
 *Figure 1: Overview of the TransformerCARE speech processing pipeline.*
 
