@@ -37,25 +37,23 @@ Performance of Transformer Models with Different Aggregation approaches
 
 | Model           | Aggregation Method | F1-Score | AUC    |
 |-----------------|--------------------|----------|--------|
-| **HuBERT**      | Embed-Based        | **79.31**    | **81.80**  |
-| **HuBERT**      | Voting             | 78.83    | 81.84  |
-| **WavLM**       | Embed-Based        | 75.19    | 79.88  |
-| **WavLM**       | Voting             | 71.90    | 78.37  |
-| **Wav2vec 2.0** | Embed-Based        | 72.92    | 76.49  |
-| **Wav2vec 2.0** | Voting             | 72.72    | 78.09  |
-| **DistilHuBERT**| Embed-Based        | 72.71    | 75.25  |
-| **DistilHuBERT**| Voting             | 69.29    | 73.12  |
+| HuBERT      | Embed-Based        | **79.31**    | **81.80**  |
+| HuBERT      | Voting             | 78.83    | 81.84  |
+| WavLM       | Embed-Based        | 75.19    | 79.88  |
+| WavLM       | Voting             | 71.90    | 78.37  |
+| Wav2vec 2.0 | Embed-Based        | 72.92    | 76.49  |
+| Wav2vec 2.0 | Voting             | 72.72    | 78.09  |
+| DistilHuBERT| Embed-Based        | 72.71    | 75.25  |
+| DistilHuBERT| Voting             | 69.29    | 73.12  |
 
 
 Performance of the HuBERT model (with Embed-based approach) using different data augmentation techniques on the dataset.
 
-**Table 2: Performance comparison of HuBERT with different data augmentation techniques**
-
 | Augmentation Technique                | F1-Score | AUC    |
 |---------------------------------------|----------|--------|
-| **None (Original Dataset)**           | 79.31    | 81.80  |
-| **Time Shifting**                     | 81.65    | 82.75  |
-| **Frequency Masking**                 | **84.63**    | **86.11**  |
+| None (Original Dataset)           | 79.31    | 81.80  |
+| Time Shifting                     | 81.65    | 82.75  |
+| Frequency Masking                 | **84.63**    | **86.11**  |
 
 
 ## Usage
@@ -69,13 +67,14 @@ To utilize the TransformerCARE pipeline:
 2. **Install Dependencies**
    ```bash
    pip install -r requirements.txt
-
-3. **Adjust Configuration** <br>
-   You can change the transformer model type, speech segment size, or adjust other hyperparameters using **config.py**.
    
-4. **Run Training**
+3. **Run Training**
    ```bash
    python main.py
+
+4. **Adjust Configuration**
+   - You can change the transformer model type, speech segment size, or adjust other hyperparameters using `config.py`.
+
 
 ## Contact
 
